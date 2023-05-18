@@ -13,7 +13,7 @@ public class KeywordBean {
     // 窗口闭合时间
     private String edt;
     // 关键词来源   ---  辅助字段,不需要写入ClickHouse
-    //@TransientSink
+
     private String source;
     // 关键词
     private String keyword;
